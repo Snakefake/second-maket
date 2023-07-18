@@ -4,16 +4,52 @@ html{
   
   @media(max-width:100rem){
     html{
-      font-size: 0.8125rem;
+      font-size: 1rem;
     }
   }
   @media(max-width:90rem){
     html{
-      font-size: 0.75rem;
+      font-size: 0.875rem;
     }
   }
   @media(max-width:62rem){
     html{
       font-size: 1rem;
+    }
+    .container{
+      width: 100%;
+      margin: 0 auto;
+  }
+    .header{
+      .img-wrapper{
+        margin-right: 2.9375rem;
+        img{
+          min-width: 132px;
+        }
+      }
+      .header-form{
+        margin-right: 4.5625rem;
+        .header-input{
+          padding: 0.75rem 10.1875rem 0.8125rem 1.4375rem;
+        }
+      }
+    }
+    .second-header__wrapper{
+      .second-header{
+        .second-header__nav{
+          width: 100%;
+          .second-header__ul{
+            justify-content: space-evenly;
+            .second-header__li{
+              .second-header__link{
+                font-size: 0.75rem;
+              }
+            }
+            .second-header__li:not(:last-child){
+              margin-right: 0rem;
+          }
+          }
+        }
+      }
     }
   }
