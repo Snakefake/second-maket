@@ -55,6 +55,9 @@
   color: #333333;
   font-size: 0.875rem;
 }
+.header .acordeon {
+  display: none;
+}
 
 .second-header__wrapper {
   background-color: #0A223D;
@@ -123,5 +126,10 @@ html {
   }
   .second-header__wrapper .second-header .second-header__nav .second-header__ul .second-header__li:not(:last-child) {
     margin-right: 0rem;
+  }
+}
+@media (max-width: 768px) {
+  .header .acordeon {
+    display: block;
   }
 }

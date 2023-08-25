@@ -53,3 +53,11 @@ html{
       }
     }
   }
+  @media(max-width:768px){
+    .header{
+      .acordeon{
+        display: block;
+      }
+    }
+
+  }
